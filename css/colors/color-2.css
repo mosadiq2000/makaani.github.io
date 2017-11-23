@@ -2,14 +2,13 @@
 /*** 
 
 ====================================================================
-	Color Two
+	Main color
 ====================================================================
-
+linear-gradient(to right, #D4DBB9, #28A99F)
  ***/
 
 nav.main-navigation .navbar-nav a:hover,
 .service-box-one .icon-box,
-.service-box-one .inner-box strong,
 .download .download-btn:hover,
 .video-2 .video-2-icon:hover,
 .how-box-one .icon-box,
@@ -22,12 +21,11 @@ nav.main-navigation .navbar-nav a:hover,
 .service-box-three:hover .icon-box,
 .service-box-four:hover h3 a,
 .service-box-four:hover .icon-box,
-.testimonials-style-two .testimonial-item .quote-icon,
 .pricing-table .price-value,
 .pricing-table .heading,
 .main-footer .contact-info li .icon
 {
-	color: #e86261;
+	color: #28A99F;
 }
 
 nav.main-navigation .navbar-toggle,
@@ -49,9 +47,8 @@ nav.main-navigation .navbar-nav .btn,
 .subscribe-newsletter form .more-btn,
 .main-footer .about-widget .social-links li a:hover
 {
-	background: #e86261 !important
+	background: #28A99F !important
 }
-
 
 nav.main-navigation .navbar-nav a:hover,
 nav.main-navigation .navbar-nav .btn,
@@ -65,24 +62,18 @@ nav.main-navigation .navbar-nav .btn,
 .main-footer .newsletter-widget input:focus,
 .main-footer .newsletter-widget select:focus
 {
-	border-color: #e86261 !important
-}
-.video .more-btn:hover,
-.how-box-one .icon-box span,
-.screenshots .owl-prev:hover, .screenshots .owl-next:hover,
-.subscribe-newsletter h2{
-	background: #cb2d3e !important
+	border-color: #28A99F !important
 }
 
 .has-gradient {
-    background-image: -webkit-linear-gradient(to right, #e86261, #ffc371);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(to right), color-stop(#e86261), to(#ffc371));
-    background-image: linear-gradient(to right, #e86261, #ffc371);
+    background-image: -webkit-linear-gradient(to right, #D4DBB9, #28A99F);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(to right), color-stop(#D4DBB9), to(#28A99F));
+    background-image: linear-gradient(to right, #D4DBB9, #28A99F);
     color: #fff
 }
 
 .pricing-table .pricing-table-signup a:hover{
-    box-shadow: 0 0 10px #e86261;
+    box-shadow: 0 0 10px #28A99F;
 }
 nav.main-navigation .navbar-nav .btn:hover {
     background: transparent !important;
