@@ -110,7 +110,7 @@ body {
 }
 
 section {
-    padding: 150px 0;
+    padding: 0px;
     overflow-x: hidden
 }
 
@@ -335,7 +335,7 @@ h2.has-line-center .heading-bg-text {
 }
 
 .padding-top-small {
-    padding-top: 100px!important
+    padding-top: 0px!important
 }
 
 .padding-bottom-small {
@@ -483,9 +483,6 @@ h2.has-line-center .heading-bg-text {
 }
 .navbar-brand > img {
     height: 70px;
-    background-color: white;
-    border: 1px solid white;
-    border-radius: 17px;
 }
 nav.main-navigation { 
     background: #fff; 
@@ -587,7 +584,6 @@ nav.main-navigation .navbar-nav .btn:hover{
     Header 1
 ====================================================================*/
 .header-1{
-    height: 100vh;
     position: relative;
     overflow: hidden;
 }
@@ -595,26 +591,12 @@ nav.main-navigation .navbar-nav .btn:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    margin-top: 18px;
 }
 .header-1 .has-line:after{
     background: #fff !important
 }
-.demo-1:after{
-    content: "";
-    width: 100%;
-    height: 170px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background: url(../images/elements/demo-1.png) no-repeat;
-    background-size: cover;
-}
-@media (max-width: 767px){
-    .demo-1:after{
-        height: 130px;
-    }
-}
+
 
 /*====================================================================
     Header 2
@@ -2675,4 +2657,16 @@ nav.main-navigation .navbar-nav .btn:hover{
         transform: scale(0.9);
         box-shadow: 0 0 0 0px rgba(111, 154, 55, 0);
     }
+}
+
+.logo {
+    width: 100%;
+
+}
+.logo img{
+    display: block;
+    margin: auto;
+    width: 209px;
+    margin-top: 66px;
+    height; auto;
 }
