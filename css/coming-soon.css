@@ -2346,24 +2346,7 @@ nav.main-navigation .navbar-nav .btn:hover{
     -o-transform: rotate(-1deg);
     transform: rotate(-1deg);
 }
-.subscribe-newsletter h2:before {
-    content: '';
-    position: absolute;
-    background: url(../images/elements/news-latter-shape1.png);
-    left: 90px;
-    top: -53px;
-    width: 12px;
-    height: 62px;
-}
-.subscribe-newsletter h2:after {
-    content: '';
-    position: absolute;
-    background: url(../images/elements/news-latter-shape2.png);
-    right: 83px;
-    top: -47px;
-    width: 12px;
-    height: 62px;
-}
+
 .subscribe-newsletter p {
     display: inline-block;
     width: 60%;
@@ -2458,11 +2441,11 @@ nav.main-navigation .navbar-nav .btn:hover{
 .social-links li a{
 	position:relative;
 	display:block;
-	line-height:38px;
-	width:38px;
-	height:38px;
+	line-height:50px;
+	width:50px;
+	height:50px;
 	text-align:center;
-	font-size:13px;
+	font-size:18px;
 	background:rgba(255,255,255,0.05);
 	color:#FFF;
 	-webkit-transition:all 500ms ease;
@@ -2690,7 +2673,7 @@ nav.main-navigation .navbar-nav .btn:hover{
 .logo img{
     display: block;
     margin: auto;
-    width: 209px;
+    width: 280px;
     margin-top: 66px;
     height; auto;
 }
