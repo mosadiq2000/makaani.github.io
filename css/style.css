@@ -492,16 +492,18 @@ nav.main-navigation .navbar-nav a.active{
     border-style: solid; 
     border-width: 0 0 2px 0; 
     border-color: #fff;
-    padding: 20px 15px 
+    padding: 28px 15px 
 }
 nav.main-navigation .navbar-brand{
-    padding: 12px 15px;
+    padding: 0px 15px;
     font-weight: 600;
     text-transform: uppercase;
+    height: 79px;
 }
 nav.main-navigation .navbar-brand img{
     display: inline-block;
     margin-right: 10px;
+    max-width: 132px;
 }
 nav.main-navigation .navbar-nav a:hover,
 nav.main-navigation .navbar-nav a:visited,
@@ -541,7 +543,7 @@ nav.main-navigation .navbar-nav .btn{
     padding: 6px 20px;
     border: 1px solid;
     border-radius: 50px;
-    margin: 13px auto;
+    margin: 22px auto;
 
 }
 nav.main-navigation .navbar-nav .btn:hover{
@@ -696,6 +698,7 @@ nav.main-navigation .navbar-nav .btn:hover{
     min-height: 100vh;
     position: relative;
     overflow: hidden;
+    background-color: #22A89E;
 }
 .header-4 .header-4-content{
     display: flex;
@@ -1080,6 +1083,11 @@ nav.main-navigation .navbar-nav .btn:hover{
     background: #fff!important
 }
 
+@media (min-width:992px) {
+    .about > .container > .row {
+     margin: 75px 100px; 
+    }   
+}
 
 
 /*** 
@@ -2329,7 +2337,7 @@ nav.main-navigation .navbar-nav .btn:hover{
 .subscribe-newsletter h2 {
     display: inline-block;
     color: #ffffff;
-    background-color: #7a52b5;
+    background-color: #3f4a48;
     font-family: "Merriweather",sans-serif;
     font-weight: bold;
     text-transform: uppercase;

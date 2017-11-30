@@ -66,9 +66,9 @@ nav.main-navigation .navbar-nav .btn,
 }
 
 .has-gradient {
-    background-image: -webkit-linear-gradient(to right, #004358, #28A99F);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(to right), color-stop(#004358), to(#28A99F));
-    background-image: linear-gradient(to right, #004358, #28A99F);
+    background-image: -webkit-linear-gradient(to right, #28A99F, #004358);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(to right), color-stop(#28A99F), to(#004358));
+    background-image: linear-gradient(to right, #28A99F, #004358);
     color: #fff
 }
 
