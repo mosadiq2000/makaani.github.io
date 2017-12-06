@@ -58,7 +58,7 @@ nav.main-navigation .navbar-nav .btn,
 .blog-style-two .inner-box:hover .content-box .date,
 .testimonials-style-two .testimonial-item .author-thumb img,
 .pricing-table .pricing-table-header,
-.subscribe-newsletter form input[type="text"],
+.subscribe-newsletter form input[type="email"],
 .main-footer .newsletter-widget input:focus,
 .main-footer .newsletter-widget select:focus
 {

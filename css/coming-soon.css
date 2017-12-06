@@ -2371,7 +2371,7 @@ nav.main-navigation .navbar-nav .btn:hover{
 		padding: 12px 15px
 	}
 }
-.subscribe-newsletter form input[type="text"] {
+.subscribe-newsletter form input[type="email"] {
     float: left;
     width: 100%;
     background: #ffffff;
