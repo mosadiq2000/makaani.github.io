@@ -2327,7 +2327,7 @@ nav.main-navigation .navbar-nav .btn:hover{
  ***/
 .subscribe-newsletter {
     text-align: center;
-    padding: 45px 0px 50px 0px;
+    padding: 45px 0px 20px 0px;
 }
 .subscribe-newsletter h2 {
     display: inline-block;
@@ -2676,4 +2676,46 @@ nav.main-navigation .navbar-nav .btn:hover{
     width: 280px;
     margin-top: 66px;
     height; auto;
+}
+.popup-desc{
+        font-size: 15px;
+    padding-bottom: 10px;
+}
+.modal-title{
+        font-weight: bold;
+    font-size: 24px;
+    color: #13A89E;
+}
+#mc_embed_signup label{
+    text-align: left;
+}
+#footer-container{
+    background-color: #3f4a48;
+    min-height: 45px;
+    opacity: 1;
+    z-index: 4444;
+    text-align: center;
+    line-height: 3.2;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 4px;
+}
+.provider-btn{
+        background-color: transparent;
+    position: relative;
+}
+.btn-primary{
+    background-color:#13A89E;
+    border-color: #107d76;
+}
+.btn-primary:hover{
+    background-color:#107d76;
+}
+@media (max-width:767px) {
+.header-7{
+    overflow: visible;
+}
 }
